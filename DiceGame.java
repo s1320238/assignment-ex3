@@ -1,4 +1,4 @@
-public class MainBranch {
+public class DiceGame {
   public static void main(Strings[] a) {
     run();
   }
@@ -8,7 +8,7 @@ public class MainBranch {
 
      a=dice();
      b=dice();
-     System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal"+(a+b));
+     System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal　"+(a+b));
   }
   
   public int dice() {
