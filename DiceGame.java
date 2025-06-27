@@ -1,9 +1,9 @@
 public class DiceGame {
-  public static void main(Strings[] a) {
+  public static void main(String[] a) {
     run();
   }
   
-  public void run() {
+  public static void run() {
      int a,b;
 
      a=dice();
@@ -11,7 +11,7 @@ public class DiceGame {
      System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal　"+(a+b));
   }
   
-  public int dice() {
+  public static int dice() {
     return (int)(Math.random()*6+1);
   }
 }
