@@ -9,6 +9,8 @@ public class DiceGame {
      a=dice();
      b=dice();
      System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal　"+(a+b));
+    if(a+b>=8) System.out.println("You won");
+    else System.out.println("You lost");
   }
   
   public static int dice() {
