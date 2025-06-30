@@ -5,6 +5,8 @@ public class DiceGame {
   
   public static void run() {
      int a,b;
+     String name;
+     name=Greeting();
 
      a=dice();
      b=dice();
