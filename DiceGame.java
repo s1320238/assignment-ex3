@@ -7,14 +7,17 @@ public class DiceGame {
   
   public static void run() {
      int a,b;
-
-    System.out.println("What is your name? ");
-    Scanner scanner=new Scanner(System.in);
-    String name=scanner.nextLine();
     
      a=dice();
      b=dice();
      System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal　"+(a+b));
+  }
+
+  public static String Greeting() {
+    System.out.println("What is your name? ");
+    Scanner scanner=new Scanner(System.in);
+    String name=scanner.nextLine();
+    return name;
   }
   
   public static int dice() {
