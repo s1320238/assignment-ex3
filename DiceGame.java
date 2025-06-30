@@ -15,12 +15,11 @@ public class DiceGame {
      System.out.println("dice1: "+a+"\ndice2: "+b+"\ntotal　"+(a+b));
   }
 
+
+  
 public static int dice() {
     return (int)(Math.random()*6+1);
   }
-
-
-
 
   
   public static String Greeting() {
